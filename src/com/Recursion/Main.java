@@ -15,10 +15,12 @@ public class Main {
         for(int i=0;i<str.length();i++){
             stack.push(str.charAt(i));
         }
+        // pop will return the last element so when it will overall print the string in reverse.
         String rev = "";
         for(int i=0;i<str.length();i++){
             rev = rev + stack.pop();
         }
+        // equals method will compare the contents of the element.
         if(rev.equals(str)){
             System.out.println("Yes");
         }
