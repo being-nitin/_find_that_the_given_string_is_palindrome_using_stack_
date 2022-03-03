@@ -13,6 +13,8 @@ public class reversedStringToStraightString {
         for(int i=str.length()-1;i>0;i--){
             stack.push(str.charAt(i));
         }
+
+        // will make the given string in straight.
         String straight = "";
         for(int i=0;i<str.length();i++){
             straight = straight + stack.pop();
