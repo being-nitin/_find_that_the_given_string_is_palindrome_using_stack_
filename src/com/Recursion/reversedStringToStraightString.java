@@ -7,6 +7,7 @@ public class reversedStringToStraightString {
         String str = sc.next();
         straight(str);
     }
+    // taking the string in reverse.
     public static void straight(String str){
         Stack <Character> stack = new Stack<>();
         for(int i=str.length()-1;i>0;i--){
