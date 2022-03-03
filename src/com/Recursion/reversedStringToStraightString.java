@@ -20,5 +20,11 @@ public class reversedStringToStraightString {
             straight = straight + stack.pop();
         }
         System.out.println(straight);
+        if(straight.equals(str)){
+            System.out.println("string is a palindrome");
+        }
+        else{
+            System.out.println( "string is not a palindrome" );
+        }
     }
 }
