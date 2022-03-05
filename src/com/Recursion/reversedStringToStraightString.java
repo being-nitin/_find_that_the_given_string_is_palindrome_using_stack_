@@ -26,5 +26,5 @@ public class reversedStringToStraightString {
         else{
             System.out.println( "string is not a palindrome" );
         }
-    }
+            }
 }
